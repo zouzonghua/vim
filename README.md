@@ -7,7 +7,7 @@ My Vim setttings
 
 ```sh
   cd ~
-  git clone git@github.com:zouzonghua/.vim.git
+  git clone git@github.com:zouzonghua/.vim.git .vim
   ln -s .vim/vimrc .vimrc
 ```
 
