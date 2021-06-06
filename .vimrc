@@ -13,9 +13,14 @@ call plug#begin('~/.vim/plugged')
 
  Plug 'morhetz/gruvbox'
 
- Plug 'mattn/emmet-vim'
  Plug 'airblade/vim-gitgutter'
  Plug 'tomtom/tcomment_vim'
+ Plug 'jiangmiao/auto-pairs'
+ Plug 'mattn/emmet-vim'
+
+ Plug 'pangloss/vim-javascript'
+ Plug 'peitalin/vim-jsx-typescript'
+ Plug 'leafgarland/typescript-vim'
 
 call plug#end()
 
@@ -46,4 +51,3 @@ scriptencoding utf-8
 " key mapping
 "--------------
 let mapleader = ","
-
