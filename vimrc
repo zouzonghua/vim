@@ -2,25 +2,27 @@
 " plugins
 "--------------
 call plug#begin('~/.vim/plugged')
- Plug 'vim-airline/vim-airline'
- Plug 'vim-airline/vim-airline-themes'
- Plug 'airblade/vim-gitgutter'
- Plug 'tpope/vim-fugitive'
+  " 编辑器功能
+  Plug 'vim-airline/vim-airline'
+  Plug 'vim-airline/vim-airline-themes'
+  Plug 'preservim/nerdtree'
+  Plug 'Xuyuanp/nerdtree-git-plugin'
+  Plug 'airblade/vim-gitgutter'
+  Plug 'tpope/vim-fugitive'
+  Plug 'ryanoasis/vim-devicons'
 
- Plug 'preservim/nerdtree'
- Plug 'Xuyuanp/nerdtree-git-plugin'
- Plug 'ryanoasis/vim-devicons'
+  " 基础开发
+  Plug 'mattn/emmet-vim'
+  Plug 'tomtom/tcomment_vim'
+  Plug 'jiangmiao/auto-pairs'
 
- Plug 'morhetz/gruvbox'
+  " JavaScript 开发
+  Plug 'pangloss/vim-javascript'
+  Plug 'peitalin/vim-jsx-typescript'
+  Plug 'leafgarland/typescript-vim'
 
- Plug 'airblade/vim-gitgutter'
- Plug 'tomtom/tcomment_vim'
- Plug 'jiangmiao/auto-pairs'
- Plug 'mattn/emmet-vim'
-
- Plug 'pangloss/vim-javascript'
- Plug 'peitalin/vim-jsx-typescript'
- Plug 'leafgarland/typescript-vim'
+  " 配色
+  Plug 'morhetz/gruvbox'
 
 call plug#end()
 
