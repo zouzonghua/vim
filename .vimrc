@@ -36,7 +36,9 @@ filetype on         " 识别文件类型
 filetype indent on  " 根据文件类型进行缩放
 filetype plugin on  " 根据文件类型载入插件
 
+"--------------
 " file encoding
+"--------------
 set encoding=utf-8
 scriptencoding utf-8
 
