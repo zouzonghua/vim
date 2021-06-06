@@ -10,3 +10,10 @@ My Vim setttings
 ```
 
 打开 Vim，并执行 `:PlugInstall` 安装插件。
+
+## 脚本安装
+
+```
+sh <(curl -L https://github.com/zouzonghua/.vim/main/utils/install.sh)
+```
+
