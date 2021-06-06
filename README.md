@@ -14,6 +14,6 @@ My Vim setttings
 ## 脚本安装
 
 ```
-sh <(curl -L https://github.com/zouzonghua/.vim/main/utils/install.sh)
+sh <(curl -L https://github.com/zouzonghua/.vim/raw/main/utils/install.sh)
 ```
 
