@@ -34,6 +34,7 @@ sh <(curl -L https://github.com/zouzonghua/vim/raw/main/utils/install.sh)
 - vim-gitgutter <https://github.com/airblade/vim-gitgutter>
 - vim-fugitive <https://github.com/tpope/vim-fugitive>
 - vim-devicons <https://github.com/ryanoasis/vim-devicons>
+- vim-startuptime <https://github.com/dstein64/vim-startuptime>
 
 ### 基础开发
 
