@@ -1,6 +1,7 @@
 
 vim_folder=~/.vim
 vim_rc=~/.vimrc
+nerd_tree_bookmarks=~/.NERDTreeBookmarks
 backup_rand=$RANDOM
 
 # detect if there's a .vim folder
@@ -40,6 +41,7 @@ hash git >/dev/null && /usr/bin/env git clone https://github.com/zouzonghua/.vim
 # make symbolic links
 echo "link vimrc and gvimrc to your home directory.."
 ln -s $vim_folder/vimrc $vim_rc
+ln -s $vim_folder/NERDTreeBookmarks $nerd_tree_bookmarks
 
 # run PlugInstall to install all plugins
 vim +'PlugInstall --sync' +qa
