@@ -1,4 +1,4 @@
-# .vim
+# vim
 My Vim setttings
 
 ## 安装
