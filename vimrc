@@ -5,11 +5,12 @@ call plug#begin('~/.vim/plugged')
   " 编辑器功能
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
-  Plug 'preservim/nerdtree'
+  Plug 'preservim/nerdtree', {'on': 'NERDTreeToggle'}
   Plug 'Xuyuanp/nerdtree-git-plugin'
   Plug 'airblade/vim-gitgutter'
   Plug 'tpope/vim-fugitive'
   Plug 'ryanoasis/vim-devicons'
+  Plug 'dstein64/vim-startuptime'
 
   " 基础开发
   Plug 'mattn/emmet-vim'
