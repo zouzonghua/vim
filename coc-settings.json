@@ -1,0 +1,36 @@
+{
+  "coc.preferences.extensionUpdateCheck": "daily", // 每天检查更新
+  "prettier.semi": true, // 句尾添加分号
+  "prettier.tabWidth": 2, // 缩进字节数
+  "prettier.singleQuote": true, // 使用单引号代替双引号
+  "prettier.printWidth": 100, // 超过最大值换行
+  "suggest.noselect": true,
+  "suggest.enablePreselect": false,
+  "suggest.completionItemKindLabels": {
+    "class": "\uf0e8",
+    "color": "\ue22b",
+    "constant": "\uf8fe",
+    "default": "\uf29c",
+    "enum": "\uf435",
+    "enumMember": "\uf02b",
+    "event": "\ufacd",
+    "field": "\uf93d",
+    "file": "\uf723",
+    "folder": "\uf115",
+    "function": "\u0192",
+    "interface": "\uf417",
+    "keyword": "\uf1de",
+    "method": "\uf6a6",
+    "module": "\uf40d",
+    "operator": "\uf915",
+    "property": "\ue624",
+    "reference": "\ufa46",
+    "snippet": "\ue60b",
+    "struct": "\ufb44",
+    "text": "\ue612",
+    "typeParameter": "\uf728",
+    "unit": "\uf475",
+    "value": "\uf89f",
+    "variable": "\ue71b"
+  }
+}

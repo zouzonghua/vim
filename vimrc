@@ -21,6 +21,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'pangloss/vim-javascript'
   Plug 'peitalin/vim-jsx-typescript'
   Plug 'leafgarland/typescript-vim'
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
   " 配色
   Plug 'morhetz/gruvbox'
